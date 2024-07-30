@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Diagnosis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="Hospital Logo" class="logo">
+            <h1>Remote Diagnosis</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Select Your Symptoms</h2>
+                <div class="symptoms">
+                    <button class="symptom-btn" data-symptom="fever">Fever</button>
+                    <button class="symptom-btn" data-symptom="cough">Cough</button>
+                    <button class="symptom-btn" data-symptom="headache">Headache</button>
+                    <button class="symptom-btn" data-symptom="fatigue">Fatigue</button>
+                    <button class="symptom-btn" data-symptom="nausea">Nausea</button>
+                    <button class="symptom-btn" data-symptom="sore throat">Sore Throat</button>
+                    <button class="symptom-btn" data-symptom="runny nose">Runny Nose</button>
+                    <button class="symptom-btn" data-symptom="shortness of breath">Shortness of Breath</button>
+                    <button class="symptom-btn" data-symptom="chest pain">Chest Pain</button>
+                    <button class="symptom-btn" data-symptom="diarrhea">Diarrhea</button>
+                    <button class="symptom-btn" data-symptom="vomiting">Vomiting</button>
+                    <button class="symptom-btn" data-symptom="rash">Rash</button>
+                </div>
+                <button id="analyze-btn">Analyze Symptoms</button>
+                <div id="result"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
